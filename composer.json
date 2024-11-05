@@ -1,0 +1,28 @@
+{
+    "name": "moassaad/php-api-resource-lib",
+    "description": "api resource handle.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moassaad",
+            "email": "mohammadasaadgo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ApiResource\\App\\": "src/",
+            "ApiResource\\Example\\": "examples/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApiResource\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
